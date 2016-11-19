@@ -6,6 +6,7 @@ import os
 def run(**args):
 
     print "[*] In dirlister modules."
-    files = os.listdir(.)
+    files = os.listdir(".")
+    print str(files)
 
     return str(files)
